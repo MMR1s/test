@@ -1,0 +1,36 @@
+p {
+    max-width: 200px;
+}
+
+img {
+    width: 200px;
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    max-width: 500px;
+    text-align: center;
+    padding: auto;
+    background-color: antiquewhite;
+    padding: 10px;
+    padding-bottom: 30px
+}
+
+img:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 128, 0, 0.419);
+}
+
+
+.card1 {
+    border: 1px solid black;
+}
