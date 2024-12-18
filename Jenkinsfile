@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        NODE_HOME = tool name: 'Node 16', type: 'NodeJS'
+        NODE_HOME = tool name: 'Node v22.9.0', type: 'NodeJS'
     }
     stages {
         stage('Checkout') {
